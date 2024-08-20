@@ -9,7 +9,7 @@ clean_old_enchantments: false # Some older enchantments used to apply an attribu
 # of having these custom enchantments, your own custom attributes may be removed.
 
 # Level minimum in the enchantment table before custom enchants start appearing
-level_minimum: 30
+level_minimum: 20
 # If true, custom enchanted items will also receive a cosmetic glint enchantment. This causes items to glow as if they are
 # enchanted. With this enchantment, though, they cannot be put in the enchantment table any more since they are technically
 # now enchanted.
@@ -30,15 +30,15 @@ enchantment_extra_cost: 2
 # Disable certain core features of the plugin in case they severely clash with other plugins, or you just don't want to use them.
 disable_anvil: false # Disables custom enchantments from being able to be combined in an anvil
 disable_enchanting: false # Disables custom enchantments from appearing in the enchantment table
-disable_trading: false # Disables villagers from trading custom enchantments
+disable_trading: false # true villagers from trading custom enchantments
 disable_fishing: false # Disables enchanted books obtained by fishing from receiving custom enchants
 disable_dungeonlootgen: false  # Disables enchanted books obtained from dungeon generated chests from receiving custom enchants
 
 # The maximum amount of enchantments you're allowed to put on a tool
-max_enchants: 5
+max_enchants: 8
 
 # The chance for custom enchantments to appear on an item while enchanting, in %
-custom_enchant_rate: 50
+custom_enchant_rate: 70
 # The chance for an enchanted book in a librarian trade to instead be of a random custom enchantment, in %
 # The enchantments appearing will appear at the same rate they would when enchanting a normal enchanted book, except
 # there will always be just 1 enchantment.
