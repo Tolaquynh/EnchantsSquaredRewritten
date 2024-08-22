@@ -23,7 +23,7 @@ consume_all_levels: false
 # The amount of times the enchantment table will attempt to roll for custom enchantments
 # This means that the higher this number, the generally more enchantments will appear on an item
 # This also makes this amount the max amount of custom enchants that can appear on an item at once in an enchantment table
-enchantment_table_rolls: 3
+enchantment_table_rolls: 5
 # The additional levels it'll cost to combine items with custom enchants in an anvil
 enchantment_extra_cost: 2
 
@@ -35,10 +35,10 @@ disable_fishing: false # Disables enchanted books obtained by fishing from recei
 disable_dungeonlootgen: false  # Disables enchanted books obtained from dungeon generated chests from receiving custom enchants
 
 # The maximum amount of enchantments you're allowed to put on a tool
-max_enchants: 5
+max_enchants: 15
 
 # The chance for custom enchantments to appear on an item while enchanting, in %
-custom_enchant_rate: 50
+custom_enchant_rate: 80
 # The chance for an enchanted book in a librarian trade to instead be of a random custom enchantment, in %
 # The enchantments appearing will appear at the same rate they would when enchanting a normal enchanted book, except
 # there will always be just 1 enchantment.
