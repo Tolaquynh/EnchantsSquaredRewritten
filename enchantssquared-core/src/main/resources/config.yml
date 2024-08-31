@@ -35,10 +35,10 @@ disable_fishing: false # Disables enchanted books obtained by fishing from recei
 disable_dungeonlootgen: false  # Disables enchanted books obtained from dungeon generated chests from receiving custom enchants
 
 # The maximum amount of enchantments you're allowed to put on a tool
-max_enchants: 5
+max_enchants: 20
 
 # The chance for custom enchantments to appear on an item while enchanting, in %
-custom_enchant_rate: 50
+custom_enchant_rate: 70
 # The chance for an enchanted book in a librarian trade to instead be of a random custom enchantment, in %
 # The enchantments appearing will appear at the same rate they would when enchanting a normal enchanted book, except
 # there will always be just 1 enchantment.
